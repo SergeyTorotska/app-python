@@ -21,6 +21,6 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Deploy Azure Web App : WebAppxs'
             inputs:
-              azureSubscription: $(azureServiceConnectionId)
+              azureSubscription: 'Azure subscription 1 (f016713d-47fd-4917-a2c7-c2805377c59c)'
               appName: $(webAppName)
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
