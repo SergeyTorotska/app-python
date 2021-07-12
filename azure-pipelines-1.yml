@@ -11,7 +11,7 @@ variables:
   azureServiceConnectionId: 'caafde58-4df2-4949-b31e-e8804343f845'
 
   # Web app name
-  webAppName: 'slotAppServiceSlotOne (slotAppService003030/slotAppServiceSlotOne)'
+  webAppName: 'slotAppServiceSlotOne'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
