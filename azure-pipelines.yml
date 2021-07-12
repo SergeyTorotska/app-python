@@ -8,8 +8,7 @@ trigger:
 
 pool:
   name: AKS
-  vmImage: ubuntu-latest
-
+  
 variables:
   # Web app name
   webAppName: 'app231'
