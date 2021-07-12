@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '172fe72a-b280-4662-8ac8-2252d3405299'
+  azureServiceConnectionId: Id
 
   # Web app name
   webAppName: 'app231'
