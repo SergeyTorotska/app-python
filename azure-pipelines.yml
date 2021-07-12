@@ -8,6 +8,7 @@ trigger:
 
 pool:
   name: AKS
+  agentName: azdevops-deployment-56fbbff75-7hjsx
   
 variables:
   # Web app name
